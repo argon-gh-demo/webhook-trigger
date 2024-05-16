@@ -2,7 +2,7 @@ name: Webhook Pipeline
 # workflow triggers
 on:
   repository_dispatch:
-    types: [ push, pull_request ]
+   types: [ push, pull_request ]
 # build process
 jobs:
   build:
