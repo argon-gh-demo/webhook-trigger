@@ -1,5 +1,4 @@
 name: Handle Webhook
-
 on:
   repository_dispatch:
     types: [webhook_event]
